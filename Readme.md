@@ -1,6 +1,6 @@
 # This is VivSoft's Hactoberfest hackathon project. 
 
-
+![Hactoberfest](https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/120537351_212959433504321_4885228662602907396_o.jpg?_nc_cat=105&_nc_sid=b386c4&_nc_ohc=1ajghqlrMEEAX-xnWMd&_nc_ht=scontent-iad3-1.xx&oh=f376eade3a4b7b0b9b4be013fb182191&oe=5FAED42A)
 
 We built a solution that use Spire to attest Istio workload identities. The configuration allows identities to be tied not only to the nodes within the Kubernetes Cluster but also to the workloads (at the container image level) to ensure that there is a strong cryptographic identity for each container image running within the cluster. 
 
