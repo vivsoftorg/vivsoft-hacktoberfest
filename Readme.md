@@ -36,7 +36,7 @@ Note :
 2. This will create a gateway and allow all traffic with `*.local`
 
 ## Deploy Spire Server/Agent:
-1. You need to deploy k8s cluster and also need to deploy istio is optional, unless you are running public facing apps
+1. You need to deploy k8s cluster and also need to deploy istio.
 2. This will deploy spire server and one agent per node.
 3. You have to register node in spire server first then you can register workloads using parent SVID
 4. To deploy spire agent and server ` bash boot.sh spire`
