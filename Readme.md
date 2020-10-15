@@ -2,7 +2,7 @@
 
 ![Hactoberfest](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F114217629%2F293389748072%2F1%2Foriginal.20201010-000608?w=1080&auto=format%2Ccompress&q=75&sharp=10&rect=1%2C197%2C3910%2C1955&s=359a3b37e04caa40a0420ddb5cbb8178)
 
-We built a solution that use Spire to attest Istio workload identities. The configuration allows identities to be tied not only to the nodes within the Kubernetes Cluster but also to the workloads (at the container image level) to ensure that there is a strong cryptographic identity for each container image running within the cluster. 
+We built a solution that uses Spire to attest Istio workload identities. The configuration allows identities to be tied not only to the nodes within the Kubernetes Cluster but also to the workloads (at the container image level) to ensure that there is a strong cryptographic identity for each container image running within the cluster. 
 
 # Start with a local k3d cluster deployment on Mac
 
