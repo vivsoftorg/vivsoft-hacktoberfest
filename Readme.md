@@ -13,7 +13,7 @@ We built a solution that uses Spire to attest Istio workload identities. The con
 4. makecert: `brew install mkcert`
 
 ## load images into local registry
-1. create registry `bash boot.sh local_registry`
+1. create registry `bash boot.sh local_container_registry`
 1. tag your image `docker image tag nginx:latest registry.localhost:5000/nginx:latest`
 3. push images using `docker push registry.localhost:5000/nginx:latest`
 
